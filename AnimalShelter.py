@@ -45,31 +45,3 @@ class AnimalShelter:
                         return True
 
         return False
-                    
-                
-                    
-
-    
-bear1 = Animal('bear', 69, 123, "Dave")
-bear2 = Animal('bear', 123, 123131, 'John')
-horse1 = Animal('horse', 78, 232, 'Horsey')
-horse2 = Animal('horse', 21, 12, 'Ally')
-horse3 = Animal('horse', 12, 23, 'Johnny')
-cat1 = Animal('cat', 123 ,23, 'Kitty')
-
-d = AnimalShelter()
-d.addAnimal(bear1)
-d.addAnimal(bear2)
-d.addAnimal(horse1)
-d.addAnimal(horse2)
-print(d.dict)
-
-print(d.getAnimalsBySpecies('horse'))
-
-print(d.doesAnimalExist(horse2))
-
-print(d.doesAnimalExist(cat1))
-print(d.doesAnimalExist(horse3))
-
-
-
