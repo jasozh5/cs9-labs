@@ -20,7 +20,3 @@ class Animal:
     def toString(self):
         return "Species: {}, Name: {}, Age: {}, Weight: {}"\
                .format(self.species, self.name, self.age, self.weight)
-
-
-a = Animal("dog", 12.2, 2, "Ruffles")
-print(a.toString())
